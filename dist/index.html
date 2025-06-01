@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>UB Intelligence</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <style>
+    html {
+      -webkit-overflow-scrolling: touch; /* iOS momentum scrolling */
+    }
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: #0a0a0a; /* New very dark background */
+      color: #F3F4F6; /* text-gray-100 - default light text */
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+
+    /* Enhanced Animation System */
+    .animate-on-scroll {
+      opacity: 0;
+      transition-property: opacity, transform;
+      transition-duration: 0.7s;
+      transition-timing-function: cubic-bezier(0.17, 0.55, 0.55, 1);
+      will-change: transform, opacity; /* Hint to browser for optimization */
+      backface-visibility: hidden; /* Can improve rendering performance */
+    }
+
+    .animate-on-scroll.is-visible {
+      opacity: 1;
+      /* Explicitly use 3D transforms for consistency if initial states use them */
+      /* transform: none; can also work if initial transforms are correctly reset */
+    }
+    
+    .animate-on-scroll.is-visible.initial-slide-up,
+    .animate-on-scroll.is-visible.initial-slide-down,
+    .animate-on-scroll.is-visible.initial-slide-left,
+    .animate-on-scroll.is-visible.initial-slide-right {
+        transform: translate3d(0, 0, 0);
+    }
+    .animate-on-scroll.is-visible.initial-scale-up-sm {
+        transform: scale3d(1, 1, 1);
+    }
+     .animate-on-scroll.is-visible.initial-fade { /* For elements that only fade */
+        transform: none; /* Ensure no residual transform if somehow combined */
+    }
+
+
+    /* Initial states for animations using 3D transforms */
+    .initial-slide-up { transform: translate3d(0, 30px, 0); }
+    .initial-slide-down { transform: translate3d(0, -30px, 0); }
+    .initial-slide-left { transform: translate3d(30px, 0, 0); } /* Element comes from right */
+    .initial-slide-right { transform: translate3d(-30px, 0, 0); } /* Element comes from left */
+    .initial-scale-up-sm { transform: scale3d(0.95, 0.95, 1); }
+    .initial-fade { opacity: 0; transform: translate3d(0,0,0); } /* For elements that only fade, ensure base transform */
+    
+    /* Reusing fade-in-section for elements that already use it, applying new base styles */
+    .fade-in-section {
+      opacity: 0;
+      transform: translate3d(0, 30px, 0); /* Use 3d transform */
+      transition: opacity 0.8s cubic-bezier(0.17, 0.55, 0.55, 1) 0.1s, transform 0.8s cubic-bezier(0.17, 0.55, 0.55, 1) 0.1s;
+      will-change: transform, opacity;
+      backface-visibility: hidden;
+    }
+    .fade-in-section.is-visible {
+      opacity: 1;
+      transform: translate3d(0, 0, 0); /* Use 3d transform */
+    }
+
+    /* Transition Delays - applied as utility classes */
+    .delay-0 { transition-delay: 0s !important; }
+    .delay-100 { transition-delay: 0.1s !important; }
+    .delay-200 { transition-delay: 0.2s !important; }
+    .delay-300 { transition-delay: 0.3s !important; }
+    .delay-400 { transition-delay: 0.4s !important; }
+    .delay-500 { transition-delay: 0.5s !important; }
+    .delay-700 { transition-delay: 0.7s !important; }
+
+
+    /* Styling for scrollbars to match dark theme */
+    ::-webkit-scrollbar {
+      width: 8px;
+      height: 8px;
+    }
+    ::-webkit-scrollbar-track {
+      background: #1a1a1a;
+    }
+    ::-webkit-scrollbar-thumb {
+      background-color: #4f46e5; 
+      border-radius: 4px;
+    }
+    ::-webkit-scrollbar-thumb:hover {
+      background-color: #4338ca;
+    }
+  </style>
+
+<link rel="stylesheet" href="/index.css">
+<script type="importmap">
+{
+  "imports": {
+    "react": "https://esm.sh/react@^19.1.0",
+    "react/": "https://esm.sh/react@^19.1.0/",
+    "react-dom/": "https://esm.sh/react-dom@^19.1.0/"
+  }
+}
+</script>
+  <script type="module" crossorigin src="/assets/index-CZtKJItS.js"></script>
+</head>
+<body>
+  <noscript>You need to enable JavaScript to run this app.</noscript>
+  <div id="root"></div>
+</body>
+</html>
