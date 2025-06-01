@@ -140,7 +140,7 @@ export const FOUNDERS_DATA: Founder[] = [
     id: 'founder3',
     name: 'Nikhil A R',
     title: 'Co-Founder & System Security Specialist',
-    bio: 'Nikhil is the cybersecurity backbone of UB Intelligence. As a skilled systems security engineer, he ensures the platform's infrastructure is secure, resilient, and privacy-first, safeguarding both data and trust in every interaction.',
+    bio: 'Nikhil is the cybersecurity backbone of UB Intelligence. As a skilled systems security engineer, he ensures the platform\'s infrastructure is secure, resilient, and privacy-first, safeguarding both data and trust in every interaction.',
     imageUrl: 'https://picsum.photos/seed/nikhil_prof/200/200', // Placeholder image
     linkedinUrl: 'https://www.linkedin.com/in/nikhil-a-r-2a1801150',
   },
