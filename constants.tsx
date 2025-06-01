@@ -41,7 +41,6 @@ const diyaFeatures: Feature[] = [
   { icon: <WellnessIcon />, name: 'Mindfulness Exercises', description: 'Guided mindfulness sessions.' },
 ];
 
-
 export const ASSISTANTS_DATA: Assistant[] = [
   {
     id: 'dharmabot',
@@ -63,7 +62,7 @@ export const ASSISTANTS_DATA: Assistant[] = [
     tagline: 'Create with AI Magic',
     description: 'Unleash your creativity with Imagenie. Generate breathtaking images, compelling content, and natural-sounding voiceovers effortlessly.',
     features: imagenieFeatures,
-    screenshotUrl: 'https://picsum.photos/seed/imagenie_new_dark/800/500', 
+    screenshotUrl: '/Screenshot 2025-06-01 134109.png',
     accentColor: 'text-orange-400', 
     gradientFrom: 'from-orange-800', 
     gradientTo: 'to-yellow-600',     
@@ -119,7 +118,7 @@ export const FOUNDERS_DATA: Founder[] = [
     name: 'Adv. Rahul A R',
     title: 'Chief Executive Officer (CEO) & AI Visionary',
     bio: "Rahul leads UB Intelligence with a strong vision for transformative AI. With years of experience in advocacy, machine learning, and product development, he is the technical architect behind UB Intelligence's platform. His expertise lies in building scalable AI systems and advancing cutting-edge research, all with a mission to develop the safest AI solutions.",
-    imageUrl: 'https://picsum.photos/seed/rahul_prof/200/200', // Placeholder image
+    imageUrl: 'https://picsum.photos/seed/rahul_prof/200/200',
     linkedinUrl: 'https://www.linkedin.com/in/advrahular',
   },
   {
@@ -127,7 +126,7 @@ export const FOUNDERS_DATA: Founder[] = [
     name: 'Adv. Vinu Vinay',
     title: 'Chief Financial Officer (CFO) & Legal Expert',
     bio: "Vinu, an accomplished advocate with an MBA, leads the financial strategy and legal innovation at UB Intelligence. He is spearheading the development and launch of the company's AI legal assistant in Dubai, while forging strategic partnerships with prominent law firms in the region.",
-    imageUrl: 'https://picsum.photos/seed/vinu_prof/200/200', // Placeholder image
+    imageUrl: 'https://picsum.photos/seed/vinu_prof/200/200',
     linkedinUrl: 'https://www.linkedin.com/in/adv-vinu-vinay-58458b26a',
   },
   {
@@ -135,7 +134,7 @@ export const FOUNDERS_DATA: Founder[] = [
     name: 'Nikhil A R',
     title: 'Co-Founder & System Security Specialist',
     bio: "Nikhil is the cybersecurity backbone of UB Intelligence. As a skilled systems security engineer, he ensures the platform's infrastructure is secure, resilient, and privacy-first, safeguarding both data and trust in every interaction.",
-    imageUrl: 'https://picsum.photos/seed/nikhil_prof/200/200', // Placeholder image
+    imageUrl: 'https://picsum.photos/seed/nikhil_prof/200/200',
     linkedinUrl: 'https://www.linkedin.com/in/nikhil-a-r-2a1801150',
   },
 ];
