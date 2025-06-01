@@ -5,18 +5,12 @@ import ImageIcon from './components/icons/ImageIcon';
 import CyberIcon from './components/icons/CyberIcon';
 import MedicalIcon from './components/icons/MedicalIcon';
 import WellnessIcon from './components/icons/WellnessIcon';
-// FeatureIconDefault is not currently used by any assistant but kept for potential future use.
-// import FeatureIconDefault from './components/icons/FeatureIconDefault';
 
 export const NAV_ITEMS: NavItem[] = [
   { label: 'Assistants', href: '#assistants' },
   { label: 'About', href: '#about' },
-  // Contact is part of Navbar CTA and Footer
 ];
 
-// Note: Icon styling within features will be applied dynamically in AssistantDisplay
-// The className here might be overridden or augmented by AssistantDisplay logic
-// We ensure a base class for the icon itself if not fully overridden.
 const dharmabotFeatures: Feature[] = [
   { icon: <LegalIcon />, name: 'Legal Research', description: 'Access vast legal databases instantly.' },
   { icon: <LegalIcon />, name: 'Drafting Assistance', description: 'Automated drafting for legal documents.' },
@@ -83,7 +77,7 @@ export const ASSISTANTS_DATA: Assistant[] = [
     tagline: 'Cyber Guardian AI',
     description: 'Navigate the complexities of cyber law and test AI model security with Adv. Robot. Your advanced solution for digital defense and AI integrity.',
     features: advRobotFeatures,
-    screenshotUrl: 'https://picsum.photos/seed/advrobot_dark/800/500',
+    screenshotUrl: '/image copy.png',
     accentColor: 'text-red-400',
     gradientFrom: 'from-red-900',
     gradientTo: 'to-rose-800',
@@ -102,7 +96,7 @@ export const ASSISTANTS_DATA: Assistant[] = [
     gradientFrom: 'from-green-900',
     gradientTo: 'to-teal-800',
     ctaTagline: "Advance healthcare with intelligent insights.",
-    ctaButtonText: "Coming Soon", // Updated
+    ctaButtonText: "Coming Soon",
   },
   {
     id: 'diya',
@@ -115,7 +109,7 @@ export const ASSISTANTS_DATA: Assistant[] = [
     gradientFrom: 'from-sky-700', 
     gradientTo: 'to-cyan-500',
     ctaTagline: "Nurture your well-being, empower your journey.",
-    ctaButtonText: "Coming Soon", // Updated
+    ctaButtonText: "Coming Soon",
   },
 ];
 
@@ -146,9 +140,8 @@ export const FOUNDERS_DATA: Founder[] = [
   },
 ];
 
-// Updated logo for better adaptability, specific class for hero sizing handled in HeroSection
 export const UB_INTELLIGENCE_LOGO = (
-  <div className="font-extrabold tracking-tight"> {/* Base classes, size adjusted where used */}
+  <div className="font-extrabold tracking-tight">
     <span className="text-white">UB</span>
     <span className="text-blue-500">Intelligence</span>
   </div>
