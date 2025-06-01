@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { NavItem, Assistant, Founder, Feature } from './types';
 import LegalIcon from './components/icons/LegalIcon';
@@ -56,7 +55,7 @@ export const ASSISTANTS_DATA: Assistant[] = [
     tagline: 'Your AI Legal Partner',
     description: 'Revolutionizing legal work with AI-powered research, drafting, and analysis. Dharmabot empowers legal professionals to achieve more with greater accuracy and speed.',
     features: dharmabotFeatures,
-    screenshotUrl: 'https://picsum.photos/seed/dharmabot_dark/800/500', 
+    screenshotUrl: '/image.png', 
     accentColor: 'text-blue-400', 
     gradientFrom: 'from-blue-900', 
     gradientTo: 'to-indigo-800',
@@ -133,7 +132,7 @@ export const FOUNDERS_DATA: Founder[] = [
     id: 'founder2',
     name: 'Adv. Vinu Vinay',
     title: 'Chief Financial Officer (CFO) & Legal Expert',
-    bio: "Vinu, an accomplished advocate with an MBA, leads the financial strategy and legal innovation at UB Intelligence. He is spearheading the development and launch of the company’s AI legal assistant in Dubai, while forging strategic partnerships with prominent law firms in the region.",
+    bio: "Vinu, an accomplished advocate with an MBA, leads the financial strategy and legal innovation at UB Intelligence. He is spearheading the development and launch of the company's AI legal assistant in Dubai, while forging strategic partnerships with prominent law firms in the region.",
     imageUrl: 'https://picsum.photos/seed/vinu_prof/200/200', // Placeholder image
     linkedinUrl: 'https://www.linkedin.com/in/adv-vinu-vinay-58458b26a',
   },
@@ -141,7 +140,7 @@ export const FOUNDERS_DATA: Founder[] = [
     id: 'founder3',
     name: 'Nikhil A R',
     title: 'Co-Founder & System Security Specialist',
-    bio: 'Nikhil is the cybersecurity backbone of UB Intelligence. As a skilled systems security engineer, he ensures the platform’s infrastructure is secure, resilient, and privacy-first, safeguarding both data and trust in every interaction.',
+    bio: 'Nikhil is the cybersecurity backbone of UB Intelligence. As a skilled systems security engineer, he ensures the platform's infrastructure is secure, resilient, and privacy-first, safeguarding both data and trust in every interaction.',
     imageUrl: 'https://picsum.photos/seed/nikhil_prof/200/200', // Placeholder image
     linkedinUrl: 'https://www.linkedin.com/in/nikhil-a-r-2a1801150',
   },
