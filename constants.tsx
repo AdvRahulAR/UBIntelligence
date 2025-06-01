@@ -90,7 +90,7 @@ export const ASSISTANTS_DATA: Assistant[] = [
     tagline: 'Intelligent Medical AI',
     description: 'Empowering healthcare professionals with advanced AI capabilities for diagnosis support, research, and patient care optimization.',
     features: drRobotFeatures,
-    screenshotUrl: 'https://picsum.photos/seed/drrobot_dark/800/500',
+    screenshotUrl: '/Screenshot 2025-06-01 144231.png',
     accentColor: 'text-green-400',
     gradientFrom: 'from-green-900',
     gradientTo: 'to-teal-800',
