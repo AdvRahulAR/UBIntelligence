@@ -118,7 +118,7 @@ export const FOUNDERS_DATA: Founder[] = [
     name: 'Adv. Rahul A R',
     title: 'Chief Executive Officer (CEO) & AI Visionary',
     bio: "Rahul leads UB Intelligence with a strong vision for transformative AI. With years of experience in advocacy, machine learning, and product development, he is the technical architect behind UB Intelligence's platform. His expertise lies in building scalable AI systems and advancing cutting-edge research, all with a mission to develop the safest AI solutions.",
-    imageUrl: 'https://picsum.photos/seed/rahul_prof/200/200',
+    imageUrl: '/IMG_20250118_170430.jpg',
     linkedinUrl: 'https://www.linkedin.com/in/advrahular',
   },
   {
