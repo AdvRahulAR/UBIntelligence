@@ -140,8 +140,5 @@ export const FOUNDERS_DATA: Founder[] = [
 ];
 
 export const UB_INTELLIGENCE_LOGO = (
-  <div className="font-extrabold tracking-tight">
-    <span className="text-white">UB</span>
-    <span className="text-blue-500">Intelligence</span>
-  </div>
+  <img src="/Logo1.png" alt="UB Intelligence" className="h-8 w-auto" />
 );
