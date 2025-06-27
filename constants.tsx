@@ -104,7 +104,8 @@ export const ASSISTANTS_DATA: Assistant[] = [
     gradientFrom: 'from-purple-900',
     gradientTo: 'to-violet-800',
     ctaTagline: "Verify truth in the digital age.",
-    ctaButtonText: "Coming Soon",
+    ctaButtonText: "Try AuthentiScan",
+    externalLink: "https://starlit-blini-0703a3.netlify.app/",
   },
   {
     id: 'drrobot',
