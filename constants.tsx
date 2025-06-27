@@ -148,7 +148,7 @@ export const FOUNDERS_DATA: Founder[] = [
   {
     id: 'founder2',
     name: 'Adv. Vinu Vinay',
-    title: 'Chief Financial Officer (CFO) & Legal Expert',
+    title: 'Chief Operating Officer (COO) & Legal Expert',
     bio: "Vinu, an accomplished advocate with an MBA, leads the financial strategy and legal innovation at UB Intelligence. He is spearheading the development and launch of the company's AI legal assistant in Dubai, while forging strategic partnerships with prominent law firms in the region.",
     imageUrl: '/Screenshot 2025-06-02 020400.png',
     linkedinUrl: 'https://www.linkedin.com/in/adv-vinu-vinay-58458b26a',
