@@ -108,7 +108,8 @@ export const ASSISTANTS_DATA: Assistant[] = [
     gradientFrom: 'from-sky-700', 
     gradientTo: 'to-cyan-500',
     ctaTagline: "Nurture your well-being, empower your journey.",
-    ctaButtonText: "Coming Soon",
+    ctaButtonText: "Visit Diya",
+    externalLink: "https://diya.help/",
   },
 ];
 
