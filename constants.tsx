@@ -129,7 +129,8 @@ export const ASSISTANTS_DATA: Assistant[] = [
     gradientFrom: 'from-green-900',
     gradientTo: 'to-teal-800',
     ctaTagline: "Advance healthcare with intelligent insights.",
-    ctaButtonText: "Coming Soon",
+    ctaButtonText: "Try Dr. Robot",
+    externalLink: "https://dr-robot.netlify.app/",
   },
   {
     id: 'diya',
