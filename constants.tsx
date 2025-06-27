@@ -5,6 +5,9 @@ import ImageIcon from './components/icons/ImageIcon';
 import CyberIcon from './components/icons/CyberIcon';
 import MedicalIcon from './components/icons/MedicalIcon';
 import WellnessIcon from './components/icons/WellnessIcon';
+import MediaForensicsIcon from './components/icons/MediaForensicsIcon';
+import NewsVerificationIcon from './components/icons/NewsVerificationIcon';
+import DeepfakeDetectionIcon from './components/icons/DeepfakeDetectionIcon';
 
 export const NAV_ITEMS: NavItem[] = [
   { label: 'Assistants', href: '#assistants' },
@@ -39,6 +42,12 @@ const diyaFeatures: Feature[] = [
   { icon: <WellnessIcon />, name: 'Mental Wellness', description: 'Support for entrepreneurs mental health.' },
   { icon: <WellnessIcon />, name: 'Stress Management', description: 'Techniques and guidance for stress.' },
   { icon: <WellnessIcon />, name: 'Mindfulness Exercises', description: 'Guided mindfulness sessions.' },
+];
+
+const authentiScanFeatures: Feature[] = [
+  { icon: <MediaForensicsIcon />, name: 'Media Forensics', description: 'Detect deepfakes and AI-generated content in videos, images, and audio.' },
+  { icon: <NewsVerificationIcon />, name: 'News Verification', description: 'Fact-check articles with real-time claim verification.' },
+  { icon: <DeepfakeDetectionIcon />, name: 'Deepfake Detection', description: 'Advanced analysis to identify manipulated digital media.' },
 ];
 
 export const ASSISTANTS_DATA: Assistant[] = [
@@ -83,6 +92,19 @@ export const ASSISTANTS_DATA: Assistant[] = [
     ctaTagline: "Secure your digital frontier with AI.",
     ctaButtonText: "Explore Adv. Robot",
     externalLink: "https://shiny-swan-2bad36.netlify.app/",
+  },
+  {
+    id: 'authentiscan',
+    name: 'AuthentiScan',
+    tagline: 'Digital Truth Detector',
+    description: 'A sophisticated AI analysis console that determines the authenticity of digital media and text. Leveraging Google\'s Gemini AI to provide deep forensic insights and combat misinformation.',
+    features: authentiScanFeatures,
+    screenshotUrl: '/image copy.png',
+    accentColor: 'text-purple-400',
+    gradientFrom: 'from-purple-900',
+    gradientTo: 'to-violet-800',
+    ctaTagline: "Verify truth in the digital age.",
+    ctaButtonText: "Coming Soon",
   },
   {
     id: 'drrobot',
