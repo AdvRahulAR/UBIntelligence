@@ -82,7 +82,7 @@ export const ASSISTANTS_DATA: Assistant[] = [
     gradientTo: 'to-rose-800',
     ctaTagline: "Secure your digital frontier with AI.",
     ctaButtonText: "Explore Adv. Robot",
-    externalLink: "https://adv-robot-977847817748.us-west1.run.app",
+    externalLink: "https://shiny-swan-2bad36.netlify.app/",
   },
   {
     id: 'drrobot',
