@@ -52,13 +52,9 @@ const drRobotFeatures: Feature[] = [
 ];
 
 const diyaFeatures: Feature[] = [
-  { icon: <VoiceIcon />, name: 'Voice-based Interaction', description: 'Natural language processing with voice-based communication for seamless conversations.' },
-  { icon: <ChatIcon />, name: 'Real-time Responses', description: 'Instant responses to business and wellness queries with contextual understanding.' },
-  { icon: <BrainIcon />, name: 'Mental Wellness Support', description: 'Tailored mental health support addressing entrepreneurial pressures and stress management.' },
-  { icon: <ChartIcon />, name: 'Strategic Business Guidance', description: 'Comprehensive market analysis, sales strategies, and executive advisory across CTO, CFO, CMO, and CEO functions.' },
-  { icon: <VisualizationIcon />, name: '3D Visualization', description: 'Beautiful 3D interface with dark red aesthetic for enhanced user experience.' },
-  { icon: <SpeakerIcon />, name: 'High-quality Audio', description: 'Natural voice responses with premium audio quality for engaging interactions.' },
-  { icon: <SearchIcon />, name: 'Real-time Information', description: 'Live information search capabilities with focus on Indian market insights.' },
+  { icon: <ChatIcon />, name: 'Real-time Responses', description: 'Instant business and wellness query responses.' },
+  { icon: <BrainIcon />, name: 'Mental Wellness Support', description: 'Tailored support for entrepreneurial pressures.' },
+  { icon: <ChartIcon />, name: 'Strategic Business Guidance', description: 'Market analysis and executive advisory.' },
 ];
 
 export const ASSISTANTS_DATA: Assistant[] = [
