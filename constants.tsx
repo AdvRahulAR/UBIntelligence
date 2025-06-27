@@ -8,6 +8,13 @@ import WellnessIcon from './components/icons/WellnessIcon';
 import MediaForensicsIcon from './components/icons/MediaForensicsIcon';
 import NewsVerificationIcon from './components/icons/NewsVerificationIcon';
 import DeepfakeDetectionIcon from './components/icons/DeepfakeDetectionIcon';
+import VoiceIcon from './components/icons/VoiceIcon';
+import ChatIcon from './components/icons/ChatIcon';
+import BrainIcon from './components/icons/BrainIcon';
+import ChartIcon from './components/icons/ChartIcon';
+import VisualizationIcon from './components/icons/VisualizationIcon';
+import SpeakerIcon from './components/icons/SpeakerIcon';
+import SearchIcon from './components/icons/SearchIcon';
 
 export const NAV_ITEMS: NavItem[] = [
   { label: 'Assistants', href: '#assistants' },
@@ -45,9 +52,13 @@ const drRobotFeatures: Feature[] = [
 ];
 
 const diyaFeatures: Feature[] = [
-  { icon: <WellnessIcon />, name: 'Mental Wellness', description: 'Support for entrepreneurs mental health.' },
-  { icon: <WellnessIcon />, name: 'Stress Management', description: 'Techniques and guidance for stress.' },
-  { icon: <WellnessIcon />, name: 'Mindfulness Exercises', description: 'Guided mindfulness sessions.' },
+  { icon: <VoiceIcon />, name: 'Voice-based Interaction', description: 'Natural language processing with voice-based communication for seamless conversations.' },
+  { icon: <ChatIcon />, name: 'Real-time Responses', description: 'Instant responses to business and wellness queries with contextual understanding.' },
+  { icon: <BrainIcon />, name: 'Mental Wellness Support', description: 'Tailored mental health support addressing entrepreneurial pressures and stress management.' },
+  { icon: <ChartIcon />, name: 'Strategic Business Guidance', description: 'Comprehensive market analysis, sales strategies, and executive advisory across CTO, CFO, CMO, and CEO functions.' },
+  { icon: <VisualizationIcon />, name: '3D Visualization', description: 'Beautiful 3D interface with dark red aesthetic for enhanced user experience.' },
+  { icon: <SpeakerIcon />, name: 'High-quality Audio', description: 'Natural voice responses with premium audio quality for engaging interactions.' },
+  { icon: <SearchIcon />, name: 'Real-time Information', description: 'Live information search capabilities with focus on Indian market insights.' },
 ];
 
 export const ASSISTANTS_DATA: Assistant[] = [
@@ -123,14 +134,14 @@ export const ASSISTANTS_DATA: Assistant[] = [
   {
     id: 'diya',
     name: 'Diya',
-    tagline: 'Wellness for Innovators',
-    description: 'Diya is a dedicated mental wellness assistant for entrepreneurs, offering tools and support to navigate the pressures of building a business.',
+    tagline: 'Your AI Companion',
+    description: 'Diya is a comprehensive AI assistant developed by UB Intelligence, designed as the ultimate companion for entrepreneurs and business builders. Your dual mission encompasses both mental wellness support and strategic business guidance, recognizing that entrepreneurial success requires both emotional resilience and tactical expertise.',
     features: diyaFeatures,
     screenshotUrl: '/diya-screenshot.png',
     accentColor: 'text-sky-400', 
     gradientFrom: 'from-sky-700', 
     gradientTo: 'to-cyan-500',
-    ctaTagline: "Nurture your well-being, empower your journey.",
+    ctaTagline: "Your ultimate companion for entrepreneurial success.",
     ctaButtonText: "Visit Diya",
     externalLink: "https://diya.help/",
   },
