@@ -32,6 +32,12 @@ const advRobotFeatures: Feature[] = [
   { icon: <CyberIcon />, name: 'Vulnerability Scan', description: 'Identify potential security weaknesses.' },
 ];
 
+const authentiScanFeatures: Feature[] = [
+  { icon: <MediaForensicsIcon />, name: 'Media Forensics', description: 'Detect deepfakes and AI-generated content in videos, images, and audio.' },
+  { icon: <NewsVerificationIcon />, name: 'News Verification', description: 'Fact-check articles with real-time claim verification.' },
+  { icon: <DeepfakeDetectionIcon />, name: 'Deepfake Detection', description: 'Advanced analysis to identify manipulated digital media.' },
+];
+
 const drRobotFeatures: Feature[] = [
   { icon: <MedicalIcon />, name: 'Medical Assistance', description: 'Advanced AI for medical professionals.' },
   { icon: <MedicalIcon />, name: 'Symptom Analysis', description: 'Preliminary symptom checking.' },
@@ -42,12 +48,6 @@ const diyaFeatures: Feature[] = [
   { icon: <WellnessIcon />, name: 'Mental Wellness', description: 'Support for entrepreneurs mental health.' },
   { icon: <WellnessIcon />, name: 'Stress Management', description: 'Techniques and guidance for stress.' },
   { icon: <WellnessIcon />, name: 'Mindfulness Exercises', description: 'Guided mindfulness sessions.' },
-];
-
-const authentiScanFeatures: Feature[] = [
-  { icon: <MediaForensicsIcon />, name: 'Media Forensics', description: 'Detect deepfakes and AI-generated content in videos, images, and audio.' },
-  { icon: <NewsVerificationIcon />, name: 'News Verification', description: 'Fact-check articles with real-time claim verification.' },
-  { icon: <DeepfakeDetectionIcon />, name: 'Deepfake Detection', description: 'Advanced analysis to identify manipulated digital media.' },
 ];
 
 export const ASSISTANTS_DATA: Assistant[] = [
@@ -99,7 +99,7 @@ export const ASSISTANTS_DATA: Assistant[] = [
     tagline: 'Digital Truth Detector',
     description: 'A sophisticated AI analysis console that determines the authenticity of digital media and text. Leveraging Google\'s Gemini AI to provide deep forensic insights and combat misinformation.',
     features: authentiScanFeatures,
-    screenshotUrl: '/image copy.png',
+    screenshotUrl: '/authentiscan-screenshot.png',
     accentColor: 'text-purple-400',
     gradientFrom: 'from-purple-900',
     gradientTo: 'to-violet-800',
