@@ -125,7 +125,7 @@ export const ASSISTANTS_DATA: Assistant[] = [
     tagline: 'Wellness for Innovators',
     description: 'Diya is a dedicated mental wellness assistant for entrepreneurs, offering tools and support to navigate the pressures of building a business.',
     features: diyaFeatures,
-    screenshotUrl: '/image copy copy.png',
+    screenshotUrl: '/diya-screenshot.png',
     accentColor: 'text-sky-400', 
     gradientFrom: 'from-sky-700', 
     gradientTo: 'to-cyan-500',
