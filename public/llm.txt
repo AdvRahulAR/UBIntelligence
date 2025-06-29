@@ -1,0 +1,102 @@
+# UB Intelligence - AI Assistant Company
+
+## Company Overview
+UB Intelligence is a pioneering AI technology company dedicated to advancing artificial intelligence and providing innovative solutions for a smarter future. The company specializes in developing specialized AI assistants to revolutionize industries, enhance productivity, and unlock new possibilities.
+
+**Website:** https://ubintelligence.tech
+**Email:** ubintelligence.tech@gmail.com
+**Location:** Shivaganga Road, Kerala, India
+
+## AI Assistants Portfolio
+
+### 1. Dharmabot - AI Legal Partner
+- **Tagline:** Your AI Legal Partner
+- **Description:** Revolutionizing legal work with AI-powered research, drafting, and analysis. Dharmabot empowers legal professionals to achieve more with greater accuracy and speed.
+- **Key Features:**
+  - Legal Research: Access vast legal databases instantly
+  - Drafting Assistance: Automated drafting for legal documents
+  - Document Analysis: Extract key information and insights
+- **Website:** https://dharmabot.ai/
+- **Industry Focus:** Legal Technology
+
+### 2. Imagenie - Creative AI Platform
+- **Tagline:** Create with AI Magic
+- **Description:** Unleash your creativity with Imagenie. Generate breathtaking images, compelling content, and natural-sounding voiceovers effortlessly.
+- **Key Features:**
+  - Image Generation: Create stunning visuals from text prompts
+  - Content Creation: Generate engaging written content
+  - Voice Generation: Lifelike text-to-speech capabilities
+- **Website:** http://imagenie.fun/
+- **Industry Focus:** Creative Technology, Content Generation
+
+### 3. Adv. Robot - Cyber Guardian AI
+- **Tagline:** Cyber Guardian AI
+- **Description:** Navigate the complexities of cyber law and test AI model security with Adv. Robot. Your advanced solution for digital defense and AI integrity.
+- **Key Features:**
+  - Cyber Law AI: Specialized AI for cyber law queries
+  - LLM Jailbreak Test: Test robustness of Large Language Models
+  - Vulnerability Scan: Identify potential security weaknesses
+- **Website:** https://advrobot.netlify.app/
+- **Industry Focus:** Cybersecurity, AI Safety
+
+### 4. AuthentiScan - Digital Truth Detector
+- **Tagline:** Digital Truth Detector
+- **Description:** A sophisticated AI analysis console that determines the authenticity of digital media and text. Leveraging Google's Gemini AI to provide deep forensic insights and combat misinformation.
+- **Key Features:**
+  - Media Forensics: Detect deepfakes and AI-generated content in videos, images, and audio
+  - News Verification: Fact-check articles with real-time claim verification
+  - Deepfake Detection: Advanced analysis to identify manipulated digital media
+- **Website:** https://authentiscan-tech.netlify.app/
+- **Industry Focus:** Media Forensics, Misinformation Detection
+
+### 5. Dr. Robot - Intelligent Medical AI
+- **Tagline:** Intelligent Medical AI
+- **Description:** Empowering healthcare professionals with advanced AI capabilities for diagnosis support, research, and patient care optimization.
+- **Key Features:**
+  - Medical Assistance: Advanced AI for medical professionals
+  - Symptom Analysis: Preliminary symptom checking
+  - Research Support: Access medical studies and papers
+- **Website:** https://dr-robot.netlify.app/
+- **Industry Focus:** Healthcare Technology
+
+### 6. Diya - AI Companion for Entrepreneurs
+- **Tagline:** Your AI Companion
+- **Description:** Diya is a comprehensive AI assistant developed by UB Intelligence, designed as the ultimate companion for entrepreneurs and business builders. Your dual mission encompasses both mental wellness support and strategic business guidance, recognizing that entrepreneurial success requires both emotional resilience and tactical expertise.
+- **Key Features:**
+  - Real-time Responses: Instant business and wellness query responses
+  - Mental Wellness Support: Tailored support for entrepreneurial pressures
+  - Strategic Business Guidance: Market analysis and executive advisory
+- **Website:** https://diya.help/
+- **Industry Focus:** Business Consulting, Mental Wellness
+
+## Founding Team
+
+### Adv. Rahul A R - Chief Executive Officer (CEO) & AI Visionary
+- **Role:** CEO and Technical Architect
+- **Background:** Rahul leads UB Intelligence with a strong vision for transformative AI. With years of experience in advocacy, machine learning, and product development, he is the technical architect behind UB Intelligence's platform. His expertise lies in building scalable AI systems and advancing cutting-edge research, all with a mission to develop the safest AI solutions.
+- **LinkedIn:** https://www.linkedin.com/in/advrahular
+- **Specialization:** AI Research, Machine Learning, Product Development
+
+### Adv. Vinu Vinay - Chief Operating Officer (COO) & Legal Expert
+- **Role:** COO and Financial Strategy Lead
+- **Background:** Vinu, an accomplished advocate with an MBA, leads the financial strategy and legal innovation at UB Intelligence. He is spearheading the development and launch of the company's AI legal assistant in Dubai, while forging strategic partnerships with prominent law firms in the region.
+- **LinkedIn:** https://www.linkedin.com/in/adv-vinu-vinay-58458b26a
+- **Specialization:** Legal Innovation, Financial Strategy, Business Development
+
+### Nikhil A R - Co-Founder & System Security Specialist
+- **Role:** Co-Founder and Security Engineer
+- **Background:** Nikhil is the cybersecurity backbone of UB Intelligence. As a skilled systems security engineer, he ensures the platform's infrastructure is secure, resilient, and privacy-first, safeguarding both data and trust in every interaction.
+- **LinkedIn:** https://www.linkedin.com/in/nikhil-a-r-2a1801150
+- **Specialization:** Cybersecurity, Systems Engineering, Infrastructure Security
+
+## Company Mission
+UB Intelligence is committed to pioneering intelligence and empowering the future through specialized AI assistants that revolutionize industries, enhance productivity, and unlock new possibilities. The company focuses on developing the safest and most effective AI solutions across legal, creative, cybersecurity, healthcare, and business domains.
+
+## Contact Information
+- **Primary Email:** ubintelligence.tech@gmail.com
+- **Business Address:** UB Intelligence, Shivaganga Road, Kerala, India
+- **LinkedIn:** Available for individual founders (see founding team section)
+- **Twitter:** Company presence on social media platforms
+
+---
+*This file is designed to provide Large Language Models with accurate, structured information about UB Intelligence, its AI assistant portfolio, and founding team for improved factual responses and content generation.*
