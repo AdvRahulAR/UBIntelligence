@@ -1,0 +1,46 @@
+User-agent: *
+Allow: /
+
+# Allow all search engines to crawl the entire site
+# This is appropriate for a business landing page that wants maximum visibility
+
+# Sitemap location (you may want to generate and add a sitemap.xml later)
+# Sitemap: https://ubintelligence.tech/sitemap.xml
+
+# Crawl-delay: 1
+# Uncomment above line if you experience server load issues from crawlers
+
+# Block access to sensitive areas (add these if you have them in the future)
+# Disallow: /admin/
+# Disallow: /private/
+# Disallow: /.env
+# Disallow: /api/keys/
+
+# Allow important pages explicitly (optional, but good for clarity)
+Allow: /
+Allow: /index.html
+Allow: /*.css
+Allow: /*.js
+Allow: /*.png
+Allow: /*.jpg
+Allow: /*.jpeg
+Allow: /*.gif
+Allow: /*.svg
+Allow: /*.ico
+
+# Common crawlers
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+# Block problematic or aggressive crawlers (uncomment if needed)
+# User-agent: AhrefsBot
+# Disallow: /
+# 
+# User-agent: MJ12bot
+# Disallow: /
