@@ -23,6 +23,14 @@ const App: React.FC = () => {
         <AboutFounders id="about" />
       </main>
       <Footer id="contact" />
+      
+      {/* Floating Badge */}
+      <img
+        src="/white_circle_360x360.svg"
+        alt="UB Intelligence floating badge"
+        className="fixed bottom-4 right-4 z-50 w-20 h-20 cursor-pointer transition-transform duration-300 hover:scale-110"
+        onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
+      />
     </div>
   );
 };
