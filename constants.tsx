@@ -36,7 +36,7 @@ const imagenieFeatures: Feature[] = [
 const advRobotFeatures: Feature[] = [
   { icon: <CyberIcon />, name: 'Cyber Law AI', description: 'Specialized AI for cyber law queries.' },
   { icon: <CyberIcon />, name: 'LLM Jailbreak Test', description: 'Test robustness of Large Language Models.' },
-  { icon: <CyberIcon />, name: 'Deepfake Detection', description: 'Detect deepfakes and AI-generated content in videos, images, and audio.' },
+  { icon: <CyberIcon />, name: 'Deepfake Detection', description: 'Detect deepfakes and AI-generated content.' },
 ];
 
 const authentiScanFeatures: Feature[] = [
