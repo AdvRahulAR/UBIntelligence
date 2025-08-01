@@ -5,9 +5,9 @@ import ImageIcon from './components/icons/ImageIcon';
 import CyberIcon from './components/icons/CyberIcon';
 import MedicalIcon from './components/icons/MedicalIcon';
 import WellnessIcon from './components/icons/WellnessIcon';
-import MediaForensicsIcon from './components/icons/MediaForensicsIcon';
-import NewsVerificationIcon from './components/icons/NewsVerificationIcon';
-import DeepfakeDetectionIcon from './components/icons/DeepfakeDetectionIcon';
+import PersonaIcon from './components/icons/PersonaIcon';
+import PartnerIcon from './components/icons/PartnerIcon';
+import ChatInteractiveIcon from './components/icons/ChatInteractiveIcon';
 import VoiceIcon from './components/icons/VoiceIcon';
 import ChatIcon from './components/icons/ChatIcon';
 import BrainIcon from './components/icons/BrainIcon';
@@ -15,6 +15,12 @@ import ChartIcon from './components/icons/ChartIcon';
 import VisualizationIcon from './components/icons/VisualizationIcon';
 import SpeakerIcon from './components/icons/SpeakerIcon';
 import SearchIcon from './components/icons/SearchIcon';
+
+const novaFeatures: Feature[] = [
+  { icon: <PersonaIcon />, name: 'Persona Creation', description: 'Build a digital version of yourself by answering insightful questions about your background, personality, and goals.' },
+  { icon: <PartnerIcon />, name: 'Partner Crafting', description: 'Design an AI companion with a unique name, personality traits, and boundaries, fostering a healthy connection.' },
+  { icon: <ChatInteractiveIcon />, name: 'Interactive Chats', description: 'Engage in realistic, adaptive conversations with your persona or companion, tailored to your style for meaningful reflection and support.' },
+];
 
 export const NAV_ITEMS: NavItem[] = [
   { label: 'Assistants', href: '#assistants' },
@@ -37,12 +43,6 @@ const advRobotFeatures: Feature[] = [
   { icon: <CyberIcon />, name: 'Cyber Law AI', description: 'Specialized AI for cyber law queries.' },
   { icon: <CyberIcon />, name: 'LLM Jailbreak Test', description: 'Test robustness of Large Language Models.' },
   { icon: <CyberIcon />, name: 'Deepfake Detection', description: 'Detect deepfakes and AI-generated content.' },
-];
-
-const authentiScanFeatures: Feature[] = [
-  { icon: <MediaForensicsIcon />, name: 'Media Forensics', description: 'Detect deepfakes and AI-generated content in videos, images, and audio.' },
-  { icon: <NewsVerificationIcon />, name: 'News Verification', description: 'Fact-check articles with real-time claim verification.' },
-  { icon: <DeepfakeDetectionIcon />, name: 'Deepfake Detection', description: 'Advanced analysis to identify manipulated digital media.' },
 ];
 
 const drRobotFeatures: Feature[] = [
@@ -101,18 +101,18 @@ export const ASSISTANTS_DATA: Assistant[] = [
     externalLink: "https://advrobot.netlify.app/",
   },
   {
-    id: 'authentiscan',
-    name: 'AuthentiScan',
-    tagline: 'Digital Truth Detector',
-    description: 'A sophisticated AI analysis console that determines the authenticity of digital media and text. Leveraging Google\'s Gemini AI to provide deep forensic insights and combat misinformation.',
-    features: authentiScanFeatures,
-    screenshotUrl: '/authentiscan-screenshot.png',
+    id: 'nova',
+    name: 'Nova AI',
+    tagline: 'Create Your Digital Persona',
+    description: 'A cutting-edge AI platform designed for self-discovery and personal growth. Nova AI lets you create, customize, and interact with your own digital persona or supportive AI companion, powered by advanced language models for seamless, lifelike conversations.',
+    features: novaFeatures,
+    screenshotUrl: '/nova-screenshot.png',
     accentColor: 'text-purple-400',
     gradientFrom: 'from-purple-900',
     gradientTo: 'to-violet-800',
-    ctaTagline: "Verify truth in the digital age.",
-    ctaButtonText: "Try AuthentiScan",
-    externalLink: "https://authentiscan-tech.netlify.app/",
+    ctaTagline: "Unlock your potential with Nova AI—reflect, connect, and grow in a secure, user-friendly environment.",
+    ctaButtonText: "Try Nova AI",
+    externalLink: "https://nova4u.netlify.app/",
   },
   {
     id: 'drrobot',

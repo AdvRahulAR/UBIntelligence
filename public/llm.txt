@@ -39,15 +39,15 @@ UB Intelligence is a pioneering AI technology company dedicated to advancing art
 - **Website:** https://advrobot.netlify.app/
 - **Industry Focus:** Cybersecurity, AI Safety
 
-### 4. AuthentiScan - Digital Truth Detector
-- **Tagline:** Digital Truth Detector
-- **Description:** A sophisticated AI analysis console that determines the authenticity of digital media and text. Leveraging Google's Gemini AI to provide deep forensic insights and combat misinformation.
+### 4. Nova AI - Create Your Digital Persona
+- **Tagline:** Create Your Digital Persona
+- **Description:** A cutting-edge AI platform designed for self-discovery and personal growth. Nova AI lets you create, customize, and interact with your own digital persona or supportive AI companion, powered by advanced language models for seamless, lifelike conversations.
 - **Key Features:**
-  - Media Forensics: Detect deepfakes and AI-generated content in videos, images, and audio
-  - News Verification: Fact-check articles with real-time claim verification
-  - Deepfake Detection: Advanced analysis to identify manipulated digital media
-- **Website:** https://authentiscan-tech.netlify.app/
-- **Industry Focus:** Media Forensics, Misinformation Detection
+  - Persona Creation: Build a digital version of yourself by answering insightful questions about your background, personality, and goals
+  - Partner Crafting: Design an AI companion with a unique name, personality traits, and boundaries, fostering a healthy connection
+  - Interactive Chats: Engage in realistic, adaptive conversations with your persona or companion, tailored to your style for meaningful reflection and support
+- **Website:** https://nova4u.netlify.app/
+- **Industry Focus:** Personal Development, AI Companionship
 
 ### 5. Dr. Robot - Intelligent Medical AI
 - **Tagline:** Intelligent Medical AI
