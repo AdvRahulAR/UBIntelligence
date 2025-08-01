@@ -110,7 +110,7 @@ export const ASSISTANTS_DATA: Assistant[] = [
     accentColor: 'text-purple-400',
     gradientFrom: 'from-purple-900',
     gradientTo: 'to-violet-800',
-    ctaTagline: "Unlock your potential with Nova AI—reflect.",
+    ctaTagline: "Unlock your potential with Nova AI.",
     ctaButtonText: "Try Nova AI",
     externalLink: "https://nova4u.netlify.app/",
   },
