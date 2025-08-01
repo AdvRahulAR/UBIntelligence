@@ -17,9 +17,9 @@ import SpeakerIcon from './components/icons/SpeakerIcon';
 import SearchIcon from './components/icons/SearchIcon';
 
 const novaFeatures: Feature[] = [
-  { icon: <PersonaIcon />, name: 'Persona Creation', description: 'Build a digital version of yourself by answering insightful questions about your background, personality, and goals.' },
-  { icon: <PartnerIcon />, name: 'Partner Crafting', description: 'Design an AI companion with a unique name, personality traits, and boundaries, fostering a healthy connection.' },
-  { icon: <ChatInteractiveIcon />, name: 'Interactive Chats', description: 'Engage in realistic, adaptive conversations with your persona or companion, tailored to your style for meaningful reflection and support.' },
+  { icon: <PersonaIcon />, name: 'Persona Creation', description: 'Build a digital version of yourself.' },
+  { icon: <PartnerIcon />, name: 'Partner Crafting', description: 'Design an AI companion with personality traits, and boundaries.' },
+  { icon: <ChatInteractiveIcon />, name: 'Interactive Chats', description: 'Engage in realistic, adaptive conversations with your persona or companion.' },
 ];
 
 export const NAV_ITEMS: NavItem[] = [
