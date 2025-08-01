@@ -116,7 +116,7 @@ export const ASSISTANTS_DATA: Assistant[] = [
   },
   {
     id: 'drrobot',
-    name: 'Dr. Robot',
+    name: 'Synapse',
     tagline: 'Intelligent Medical AI',
     description: 'Empowering healthcare professionals with advanced AI capabilities for diagnosis support, research, and patient care optimization.',
     features: drRobotFeatures,
@@ -125,7 +125,7 @@ export const ASSISTANTS_DATA: Assistant[] = [
     gradientFrom: 'from-green-900',
     gradientTo: 'to-teal-800',
     ctaTagline: "Advance healthcare with intelligent insights.",
-    ctaButtonText: "Try Dr. Robot",
+    ctaButtonText: "Try Synapse",
     externalLink: "https://dr-robot.netlify.app/",
   },
   {
