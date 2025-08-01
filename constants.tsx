@@ -64,7 +64,7 @@ export const ASSISTANTS_DATA: Assistant[] = [
     tagline: 'Your AI Legal Partner',
     description: 'Revolutionizing legal work with AI-powered research, drafting, and analysis. Dharmabot empowers legal professionals to achieve more with greater accuracy and speed.',
     features: dharmabotFeatures,
-    screenshotUrl: '/image.png', 
+    screenshotUrl: '/Justease.png', 
     accentColor: 'text-blue-400', 
     gradientFrom: 'from-blue-900', 
     gradientTo: 'to-indigo-800',
