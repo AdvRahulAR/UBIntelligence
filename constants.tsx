@@ -60,16 +60,16 @@ const diyaFeatures: Feature[] = [
 export const ASSISTANTS_DATA: Assistant[] = [
   {
     id: 'dharmabot',
-    name: 'Dharmabot',
+    name: 'JustEase',
     tagline: 'Your AI Legal Partner',
-    description: 'Revolutionizing legal work with AI-powered research, drafting, and analysis. Dharmabot empowers legal professionals to achieve more with greater accuracy and speed.',
+    description: 'Revolutionizing legal work with AI-powered research, drafting, and analysis. JustEase empowers legal professionals to achieve more with greater accuracy and speed.',
     features: dharmabotFeatures,
     screenshotUrl: '/Justease.png', 
     accentColor: 'text-blue-400', 
     gradientFrom: 'from-blue-900', 
     gradientTo: 'to-indigo-800',
     ctaTagline: "Ready to transform your legal practice?",
-    ctaButtonText: "Visit Dharmabot",
+    ctaButtonText: "Visit JustEase",
     externalLink: "https://dharmabot.ai/",
   },
   {
