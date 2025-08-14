@@ -70,7 +70,7 @@ export const ASSISTANTS_DATA: Assistant[] = [
     gradientTo: 'to-indigo-800',
     ctaTagline: "Ready to transform your legal practice?",
     ctaButtonText: "Visit JustEase",
-    externalLink: "https://dharmabot.ai/",
+    externalLink: "https://justease.live/",
   },
   {
     id: 'imagenie',
